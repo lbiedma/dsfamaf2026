@@ -7,3 +7,4 @@
 ## Prácticos
 - [Understanding Bhattacharyya Distance and Coefficient for Probability Distributions](https://safjan.com/understanding-bhattacharyya-distance-and-coefficient-for-probability-distributions/)
 - [The Most Overlooked Problem With One-Hot Encoding](https://blog.dailydoseofds.com/p/the-most-overlooked-problem-with)
+- [Multicollinearity (VIF concept)](https://en.wikipedia.org/wiki/Multicollinearity)
