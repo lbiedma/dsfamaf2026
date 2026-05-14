@@ -3,6 +3,7 @@
 ## Buenas Prácticas
 - [Buenas prácticas para lograr que el trabajo en Jupyter notebooks sea reproducible](https://www.youtube.com/watch?v=ZOy32az2WLE), por [Diego Piloni](https://github.com/DiegoPiloni)
 - [Artículo sobre Data Leakage (Fuga de Datos)](https://machinelearningmastery.com/data-leakage-machine-learning/)
+- [Adiós a inplace en Pandas](https://github.com/pandas-dev/pandas/issues/63207)
 
 ## Prácticos
 - [Understanding Bhattacharyya Distance and Coefficient for Probability Distributions](https://safjan.com/understanding-bhattacharyya-distance-and-coefficient-for-probability-distributions/)
