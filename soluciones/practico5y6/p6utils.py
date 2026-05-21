@@ -30,3 +30,10 @@ class KDEClassifier(BaseEstimator, ClassifierMixin):
         logprobs = np.array([model.score_samples(X) for model in self.models_]).T
         # Aplicamos el teorema de Bayes en espacio logarítmico: log(prior) + log(likelihood)
         return self.classes_[np.argmax(logprobs + self.log_priors_, axis=1)]
+
+def plot_digits(data, titulo="Dígitos"):
+    fig, ax = plt.subplots(4, 10, figsize=(10, 5),
+                           subplot_kw=dict(xticks=[], yticks=[]))
+    fig.suptitle(titulo, fontsize=16)
+    for i, axi in enumerate(ax.flat):
+        axi.imshow(data[i].reshape(8, 8), cmap='gray_r')
